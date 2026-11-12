@@ -1,0 +1,930 @@
+{
+ "format": 1,
+ "doom": {
+  "clip_dist": 1200,
+  "close_dist": 200,
+  "range_blocks": 16,
+  "map8_floor": 0.25,
+  "use_z": false,
+  "max_per_tick": 6
+ },
+ "sfx": {
+  "pistol": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:pistol",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "shotgn": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:shotgn",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sgcock": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sgcock",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "chgun": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:pistol",
+     "volume": 1.0,
+     "pitch": 1.2,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sawup": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sawup",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sawidl": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sawidl",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sawful": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sawful",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sawhit": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sawhit",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "punch": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:punch",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "rlaunc": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:rlaunc",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "rxplod": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:rxplod",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "barexp": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:barexp",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "firsht": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:firsht",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "firxpl": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:firxpl",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "pstart": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:pstart",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "pstop": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:pstop",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "doropn": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:doropn",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "dorcls": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:dorcls",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bdopn": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bdopn",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bdcls": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bdcls",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "stnmov": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:stnmov",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "swtchn": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:swtchn",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "swtchx": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:swtchx",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "noway": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:noway",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "tink": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:tink",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "plpain": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:plpain",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "oof": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:oof",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "pldeth": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:pldeth",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "pdiehi": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:pdiehi",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "slop": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:slop",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "itemup": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:itemup",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "wpnup": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:wpnup",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "getpow": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:getpow",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "itmbk": {
+   "confirmed": true,
+   "source": "player",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:itmbk",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "telept": {
+   "confirmed": true,
+   "source": "block",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:telept",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "posit1": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:posit1",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "posit2": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:posit2",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "posit3": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:posit3",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bgsit1": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bgsit1",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bgsit2": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bgsit2",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sgtsit": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sgtsit",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "brssit": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:brssit",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sgtatk": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sgtatk",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "claw": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:claw",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "dmpain": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:dmpain",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "popain": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:popain",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "podth1": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:podth1",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "podth2": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:podth2",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "podth3": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:podth3",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bgdth1": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bgdth1",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bgdth2": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bgdth2",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "sgtdth": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:sgtdth",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "brsdth": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:brsdth",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "posact": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:posact",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "bgact": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:bgact",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  },
+  "dmact": {
+   "confirmed": true,
+   "source": "hostile",
+   "pitch_var": 0,
+   "layers": [
+    {
+     "event": "doomgl:dmact",
+     "volume": 1.0,
+     "pitch": 1.0,
+     "delay": 0,
+     "variant": "random"
+    }
+   ]
+  }
+ },
+ "music": {
+  "enabled": true,
+  "volume": 0.8,
+  "source": "music",
+  "roles": {
+   "piano": {
+    "instrument": "harp",
+    "octave": 0,
+    "volume": 1
+   },
+   "chromatic_perc": {
+    "instrument": "xylophone",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "organ": {
+    "instrument": "flute",
+    "octave": 0,
+    "volume": 0.8
+   },
+   "guitar_clean": {
+    "instrument": "guitar",
+    "octave": 0,
+    "volume": 1
+   },
+   "guitar_dist": {
+    "instrument": "guitar",
+    "octave": 0,
+    "volume": 1
+   },
+   "bass": {
+    "instrument": "bass",
+    "octave": 0,
+    "volume": 1
+   },
+   "strings": {
+    "instrument": "harp",
+    "octave": 0,
+    "volume": 0.8
+   },
+   "ensemble": {
+    "instrument": "pling",
+    "octave": 0,
+    "volume": 0.7
+   },
+   "brass": {
+    "instrument": "bit",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "reed": {
+    "instrument": "flute",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "pipe": {
+    "instrument": "flute",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "synth_lead": {
+    "instrument": "bit",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "synth_pad": {
+    "instrument": "pling",
+    "octave": 0,
+    "volume": 0.6
+   },
+   "fx": {
+    "instrument": "chime",
+    "octave": 0,
+    "volume": 0.5
+   },
+   "ethnic": {
+    "instrument": "banjo",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "percussive": {
+    "instrument": "cow_bell",
+    "octave": 0,
+    "volume": 0.7
+   },
+   "drum_kick": {
+    "instrument": "basedrum",
+    "octave": 0,
+    "volume": 1
+   },
+   "drum_snare": {
+    "instrument": "snare",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "drum_hat": {
+    "instrument": "hat",
+    "octave": 0,
+    "volume": 0.6
+   },
+   "drum_tom": {
+    "instrument": "basedrum",
+    "octave": 0,
+    "volume": 0.9
+   },
+   "drum_cymbal": {
+    "instrument": "hat",
+    "octave": 0,
+    "volume": 0.7
+   },
+   "drum_other": {
+    "instrument": "hat",
+    "octave": 0,
+    "volume": 0.5
+   }
+  },
+  "tracks": {
+   "D_E1M1": true,
+   "D_E1M2": true,
+   "D_E1M3": true,
+   "D_E1M4": true,
+   "D_E1M5": true,
+   "D_E1M6": true,
+   "D_E1M7": true,
+   "D_E1M8": true,
+   "D_E1M9": true,
+   "D_INTER": true,
+   "D_INTRO": true,
+   "D_INTROA": true,
+   "D_VICTOR": true
+  },
+  "mode": "real"
+ }
+}

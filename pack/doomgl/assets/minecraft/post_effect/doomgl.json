@@ -1,0 +1,143 @@
+{
+ "targets": {
+  "doom": {
+   "width": 640,
+   "height": 400
+  },
+  "rotnow": {
+   "width": 16,
+   "height": 1
+  },
+  "rotkeep": {
+   "width": 16,
+   "height": 1,
+   "persistent": true
+  },
+  "statenow": {
+   "width": 384,
+   "height": 1
+  },
+  "statekeep": {
+   "width": 384,
+   "height": 1,
+   "persistent": true
+  }
+ },
+ "passes": [
+  {
+   "vertex_shader": "minecraft:core/screenquad",
+   "fragment_shader": "minecraft:post/doombeacon",
+   "inputs": [
+    {
+     "sampler_name": "In",
+     "target": "minecraft:main",
+     "bilinear": false
+    },
+    {
+     "sampler_name": "Prev",
+     "target": "rotkeep",
+     "bilinear": false
+    }
+   ],
+   "output": "rotnow"
+  },
+  {
+   "vertex_shader": "minecraft:core/screenquad",
+   "fragment_shader": "minecraft:post/doomcopy",
+   "inputs": [
+    {
+     "sampler_name": "In",
+     "target": "rotnow",
+     "bilinear": false
+    }
+   ],
+   "output": "rotkeep"
+  },
+  {
+   "vertex_shader": "minecraft:core/screenquad",
+   "fragment_shader": "minecraft:post/doomstate",
+   "inputs": [
+    {
+     "sampler_name": "In",
+     "target": "minecraft:main",
+     "bilinear": false
+    },
+    {
+     "sampler_name": "Prev",
+     "target": "statekeep",
+     "bilinear": false
+    }
+   ],
+   "output": "statenow"
+  },
+  {
+   "vertex_shader": "minecraft:core/screenquad",
+   "fragment_shader": "minecraft:post/doomcopy",
+   "inputs": [
+    {
+     "sampler_name": "In",
+     "target": "statenow",
+     "bilinear": false
+    }
+   ],
+   "output": "statekeep"
+  },
+  {
+   "vertex_shader": "minecraft:core/screenquad",
+   "fragment_shader": "minecraft:post/doomgl",
+   "inputs": [
+    {
+     "sampler_name": "Rot",
+     "target": "rotnow",
+     "bilinear": false
+    },
+    {
+     "sampler_name": "State",
+     "target": "statenow",
+     "bilinear": false
+    },
+    {
+     "sampler_name": "Geo",
+     "location": "minecraft:doomgeo321442",
+     "width": 1024,
+     "height": 224,
+     "bilinear": false
+    },
+    {
+     "sampler_name": "Atlas",
+     "location": "minecraft:doomatlas321441",
+     "width": 2048,
+     "height": 1024,
+     "bilinear": false
+    },
+    {
+     "sampler_name": "Cmap",
+     "location": "minecraft:doomcmap",
+     "width": 256,
+     "height": 34,
+     "bilinear": false
+    },
+    {
+     "sampler_name": "Spr",
+     "location": "minecraft:doomspr321442",
+     "width": 2048,
+     "height": 1024,
+     "bilinear": false
+    }
+   ],
+   "output": "doom"
+  },
+  {
+   "vertex_shader": "minecraft:core/screenquad",
+   "fragment_shader": "minecraft:post/doompresent",
+   "inputs": [
+    {
+     "sampler_name": "Doom",
+     "target": "doom",
+     "bilinear": false
+    }
+   ],
+   "output": "minecraft:main"
+  }
+ ]
+}

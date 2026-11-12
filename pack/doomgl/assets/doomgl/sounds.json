@@ -1,0 +1,559 @@
+{
+ "barexp": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/barexp",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bdcls": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bdcls",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bdopn": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bdopn",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bgact": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bgact",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bgdth1": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bgdth1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bgdth2": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bgdth2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bgsit1": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bgsit1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "bgsit2": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/bgsit2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "brsdth": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/brsdth",
+    "volume": 1.0
+   }
+  ]
+ },
+ "brssit": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/brssit",
+    "volume": 1.0
+   }
+  ]
+ },
+ "claw": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/claw",
+    "volume": 1.0
+   }
+  ]
+ },
+ "dmact": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/dmact",
+    "volume": 1.0
+   }
+  ]
+ },
+ "dmpain": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/dmpain",
+    "volume": 1.0
+   }
+  ]
+ },
+ "dorcls": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/dorcls",
+    "volume": 1.0
+   }
+  ]
+ },
+ "doropn": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/doropn",
+    "volume": 1.0
+   }
+  ]
+ },
+ "firsht": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/firsht",
+    "volume": 1.0
+   }
+  ]
+ },
+ "firxpl": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/firxpl",
+    "volume": 1.0
+   }
+  ]
+ },
+ "getpow": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/getpow",
+    "volume": 1.0
+   }
+  ]
+ },
+ "itemup": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/itemup",
+    "volume": 1.0
+   }
+  ]
+ },
+ "itmbk": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/itmbk",
+    "volume": 1.0
+   }
+  ]
+ },
+ "noway": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/noway",
+    "volume": 1.0
+   }
+  ]
+ },
+ "oof": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/oof",
+    "volume": 1.0
+   }
+  ]
+ },
+ "pdiehi": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/pdiehi",
+    "volume": 1.0
+   }
+  ]
+ },
+ "pistol": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/pistol",
+    "volume": 1.0
+   }
+  ]
+ },
+ "pldeth": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/pldeth",
+    "volume": 1.0
+   }
+  ]
+ },
+ "plpain": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/plpain",
+    "volume": 1.0
+   }
+  ]
+ },
+ "podth1": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/podth1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "podth2": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/podth2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "podth3": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/podth3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "popain": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/popain",
+    "volume": 1.0
+   }
+  ]
+ },
+ "posact": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/posact",
+    "volume": 1.0
+   }
+  ]
+ },
+ "posit1": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/posit1",
+    "volume": 1.0
+   }
+  ]
+ },
+ "posit2": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/posit2",
+    "volume": 1.0
+   }
+  ]
+ },
+ "posit3": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/posit3",
+    "volume": 1.0
+   }
+  ]
+ },
+ "pstart": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/pstart",
+    "volume": 1.0
+   }
+  ]
+ },
+ "pstop": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/pstop",
+    "volume": 1.0
+   }
+  ]
+ },
+ "punch": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/punch",
+    "volume": 1.0
+   }
+  ]
+ },
+ "rlaunc": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/rlaunc",
+    "volume": 1.0
+   }
+  ]
+ },
+ "rxplod": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/rxplod",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sawful": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sawful",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sawhit": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sawhit",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sawidl": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sawidl",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sawup": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sawup",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sgcock": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sgcock",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sgtatk": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sgtatk",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sgtdth": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sgtdth",
+    "volume": 1.0
+   }
+  ]
+ },
+ "sgtsit": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/sgtsit",
+    "volume": 1.0
+   }
+  ]
+ },
+ "shotgn": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/shotgn",
+    "volume": 1.0
+   }
+  ]
+ },
+ "slop": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/slop",
+    "volume": 1.0
+   }
+  ]
+ },
+ "stnmov": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/stnmov",
+    "volume": 1.0
+   }
+  ]
+ },
+ "swtchn": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/swtchn",
+    "volume": 1.0
+   }
+  ]
+ },
+ "swtchx": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/swtchx",
+    "volume": 1.0
+   }
+  ]
+ },
+ "telept": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/telept",
+    "volume": 1.0
+   }
+  ]
+ },
+ "tink": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/tink",
+    "volume": 1.0
+   }
+  ]
+ },
+ "wpnup": {
+  "sounds": [
+   {
+    "name": "doomgl:sfx/wpnup",
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m1": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m1",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m2": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m2",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m3": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m3",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m4": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m4",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m5": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m5",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m6": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m6",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m7": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m7",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m8": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m8",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_e1m9": {
+  "sounds": [
+   {
+    "name": "doomgl:music/e1m9",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_inter": {
+  "sounds": [
+   {
+    "name": "doomgl:music/inter",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_intro": {
+  "sounds": [
+   {
+    "name": "doomgl:music/intro",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_introa": {
+  "sounds": [
+   {
+    "name": "doomgl:music/introa",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ },
+ "music_victor": {
+  "sounds": [
+   {
+    "name": "doomgl:music/victor",
+    "stream": true,
+    "volume": 1.0
+   }
+  ]
+ }
+}

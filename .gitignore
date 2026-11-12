@@ -1,0 +1,10 @@
+# build output
+obj/
+*.exe
+# runtime files
+server.log
+server.err
+.savegame/
+default.cfg
+.default.cfg
+pack/doomgl.zip
